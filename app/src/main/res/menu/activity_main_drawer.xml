@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Menü">
+    <group android:checkableBehavior="single" android:id="@+id/menu1">
+        <item
+            android:id="@+id/nav_kenton"
+            android:title="Kenton" />
+        <item
+            android:id="@+id/nav_ari"
+            android:title="Arımama" />
+        <item
+            android:id="@+id/nav_altin"
+            android:title="Altın" />
+        <item
+            android:id="@+id/nav_ernet"
+            android:title="Ernet" />
+        <item
+            android:id="@+id/nav_piknik"
+            android:title="Piknik" />
+        <item
+            android:id="@+id/nav_camsil"
+            android:title="Camsil" />
+        <item
+            android:id="@+id/nav_saloon"
+            android:title="Saloon" />
+        <item
+            android:id="@+id/nav_tibtrap"
+            android:title="Tibtrap" />
+    </group>
+    </item>
+
+    <item android:title="Kişisel">
+        <group android:checkableBehavior="single" android:id="@+id/menu2">
+            <item
+                android:id="@+id/nav_sepet"
+                android:title="Sepetim" />
+            <item
+                android:id="@+id/nav_siparisler"
+                android:title="Siparişlerim" />
+        </group>
+    </item>
+
+    <item android:title="Çıkış">
+    <group android:checkableBehavior="single" android:id="@+id/menu3">
+        <item
+            android:id="@+id/nav_cikis"
+            android:title="Çıkış" />
+    </group>
+    </item>
+
+</menu>
